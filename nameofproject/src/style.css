@@ -65,6 +65,10 @@ nav>.navbar_h1 {
   background-color: #282D35;
   width: 550px;
   height: 459px;
+  background-image: url(images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right 75%;
 
 }
 
@@ -95,4 +99,11 @@ main>.funFact {
 
 
 
+}
+
+li::marker {
+
+
+  color: #61DAFB;
+  font-size: 1.4em;
 }
